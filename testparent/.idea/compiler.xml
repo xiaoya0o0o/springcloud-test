@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="testapi" />
+        <module name="testconfig3322" />
+        <module name="testconfigclient3355" />
+        <module name="testconfigdeptclient8001" />
+        <module name="testconfigeureka7001" />
+        <module name="testdept8001" />
+        <module name="testdept8002" />
+        <module name="testdept8003" />
+        <module name="testdeptclient80" />
+        <module name="testdeptclientfeign" />
+        <module name="testdeptclienthystrixdashboard" />
+        <module name="testdepthystrix8001" />
+        <module name="testdeptzuulgateway9527" />
+        <module name="testeureka7001" />
+        <module name="testeureka7002" />
+        <module name="testeureka7003" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

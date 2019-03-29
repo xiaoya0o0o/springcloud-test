@@ -1,0 +1,15 @@
+server:
+  port: 3322
+
+
+spring:
+  application:
+    name:  microservicecloud-test-config
+  cloud:
+    config:
+      server:
+        git:
+#          uri: git@github.com:xx/microservicecloud-testconfig2.git #GitHub上面的git仓库名字,public公共的
+          uri: https://github.com/xx/microservicecloud-testconfig2.git #GitHub上面的git仓库名字,public公共的
+
+

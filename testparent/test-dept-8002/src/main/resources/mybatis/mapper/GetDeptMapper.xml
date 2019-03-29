@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dept.dao.GetDeptDao">
+    <resultMap id="BaseResultMap" type="com.test.entity.Dept">
+        <result column="DEPT_NO" property="deptno"/>
+        <result column="DNAME" property="dname"/>
+        <result column="DB_SOURCE" property="db_source"/>
+    </resultMap>
+
+    <select id="getDeptList" resultMap="BaseResultMap" parameterType="map">
+         select DEPT_NO, DNAME, DB_SOURCE from DEPT_INFO where 1=1
+        <if test="deptno!=null and deptno!=''">
+            and DEPT_NO =#{deptno}
+        </if>
+    </select>
+
+
+</mapper>
